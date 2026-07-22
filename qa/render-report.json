@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T00:28:04.826Z",
+  "generatedAt": "2026-07-22T01:54:47.740Z",
   "consoleErrors": [],
   "slides": [
     {
@@ -18,8 +18,31 @@
       "sources": 0,
       "fragmentsVisible": 4,
       "fragmentsTotal": 4,
+      "geometry": null,
       "outside": [],
-      "clipped": []
+      "clipped": [],
+      "maxBuild": 2,
+      "builds": [
+        {
+          "build": 1,
+          "visible": 3,
+          "expected": 3,
+          "visibleText": [
+            "II Simpósio de Farmácia Clínica e Hospitalar",
+            "Indicação e Avaliaçãodo Candidato aoTransplante Hepático"
+          ]
+        },
+        {
+          "build": 2,
+          "visible": 4,
+          "expected": 4,
+          "visibleText": [
+            "II Simpósio de Farmácia Clínica e Hospitalar",
+            "Indicação e Avaliaçãodo Candidato aoTransplante Hepático",
+            "Prof. Dr. Ben-Hur Ferraz Neto Hospital Nove de Julho · 25 de julho de 2026"
+          ]
+        }
+      ]
     },
     {
       "slide": 2,
@@ -35,10 +58,104 @@
         1080
       ],
       "sources": 2,
-      "fragmentsVisible": 4,
-      "fragmentsTotal": 4,
+      "fragmentsVisible": 12,
+      "fragmentsTotal": 12,
+      "geometry": null,
       "outside": [],
-      "clipped": []
+      "clipped": [],
+      "maxBuild": 7,
+      "builds": [
+        {
+          "build": 1,
+          "visible": 2,
+          "expected": 2,
+          "visibleText": [
+            "01 Sem transplante Morte em lista Nova descompensação Progressão tumoral Perda funcional e de qualidade de vida",
+            "02 Com transplante Mortalidade perioperatória Complicações cirúrgicas Imunossupressão, toxicidade e infecção Recorrência"
+          ]
+        },
+        {
+          "build": 2,
+          "visible": 4,
+          "expected": 4,
+          "visibleText": [
+            "Morte em lista",
+            "Mortalidade perioperatória"
+          ]
+        },
+        {
+          "build": 3,
+          "visible": 6,
+          "expected": 6,
+          "visibleText": [
+            "Morte em lista",
+            "Nova descompensação",
+            "Mortalidade perioperatória",
+            "Complicações cirúrgicas"
+          ]
+        },
+        {
+          "build": 4,
+          "visible": 8,
+          "expected": 8,
+          "visibleText": [
+            "Morte em lista",
+            "Nova descompensação",
+            "Progressão tumoral",
+            "Mortalidade perioperatória",
+            "Complicações cirúrgicas",
+            "Imunossupressão, toxicidade e infecção"
+          ]
+        },
+        {
+          "build": 5,
+          "visible": 10,
+          "expected": 10,
+          "visibleText": [
+            "Morte em lista",
+            "Nova descompensação",
+            "Progressão tumoral",
+            "Perda funcional e de qualidade de vida",
+            "Mortalidade perioperatória",
+            "Complicações cirúrgicas",
+            "Imunossupressão, toxicidade e infecção",
+            "Recorrência da doença"
+          ]
+        },
+        {
+          "build": 6,
+          "visible": 11,
+          "expected": 11,
+          "visibleText": [
+            "Morte em lista",
+            "Nova descompensação",
+            "Progressão tumoral",
+            "Perda funcional e de qualidade de vida",
+            "benefíciolíquido",
+            "Mortalidade perioperatória",
+            "Complicações cirúrgicas",
+            "Imunossupressão, toxicidade e infecção",
+            "Recorrência da doença"
+          ]
+        },
+        {
+          "build": 7,
+          "visible": 12,
+          "expected": 12,
+          "visibleText": [
+            "Morte em lista",
+            "Nova descompensação",
+            "Progressão tumoral",
+            "Perda funcional e de qualidade de vida",
+            "benefíciolíquido",
+            "Mortalidade perioperatória",
+            "Complicações cirúrgicas",
+            "Imunossupressão, toxicidade e infecção",
+            "Recorrência da doença",
+            "Transplante é uma intervenção com riscos e benefícios calculados."
+          ]
+        }
+      ]
     },
     {
       "slide": 3,
@@ -56,8 +173,62 @@
       "sources": 2,
       "fragmentsVisible": 5,
       "fragmentsTotal": 5,
+      "geometry": null,
       "outside": [],
-      "clipped": []
+      "clipped": [],
+      "maxBuild": 5,
+      "builds": [
+        {
+          "build": 1,
+          "visible": 1,
+          "expected": 1,
+          "visibleText": [
+            "01 Necessidade precisa ser avaliado? ENCAMINHAR"
+          ]
+        },
+        {
+          "build": 2,
+          "visible": 2,
+          "expected": 2,
+          "visibleText": [
+            "01 Necessidade precisa ser avaliado? ENCAMINHAR",
+            "02 Benefício aumentará a expectativa e a qualidade de vida? LISTAR"
+          ]
+        },
+        {
+          "build": 3,
+          "visible": 3,
+          "expected": 3,
+          "visibleText": [
+            "01 Necessidade precisa ser avaliado? ENCAMINHAR",
+            "02 Benefício aumentará a expectativa e a qualidade de vida? LISTAR",
+            "03 Regra + acesso como concorre ao órgão? ATIVAR"
+          ]
+        },
+        {
+          "build": 4,
+          "visible": 4,
+          "expected": 4,
+          "visibleText": [
+            "01 Necessidade precisa ser avaliado? ENCAMINHAR",
+            "02 Benefício aumentará a expectativa e a qualidade de vida? LISTAR",
+            "03 Regra + acesso como concorre ao órgão? ATIVAR",
+            "04 Avaliar + mitigar qual risco ainda permanece? TRANSPLANTAR"
+          ]
+        },
+        {
+          "build": 5,
+          "visible": 5,
+          "expected": 5,
+          "visibleText": [
+            "01 Necessidade precisa ser avaliado? ENCAMINHAR",
+            "02 Benefício aumentará a expectativa e a qualidade de vida? LISTAR",
+            "03 Regra + acesso como concorre ao órgão? ATIVAR",
+            "04 Avaliar + mitigar qual risco ainda permanece? TRANSPLANTAR",
+            "Encaminhar≠listar≠ativar≠transplantar"
+          ]
+        }
+      ]
     },
     {
       "slide": 4,
@@ -75,8 +246,67 @@
       "sources": 3,
       "fragmentsVisible": 5,
       "fragmentsTotal": 5,
+      "geometry": {
+        "familyCenterOffset": [
+          0,
+          0
+        ]
+      },
       "outside": [],
-      "clipped": []
+      "clipped": [],
+      "maxBuild": 5,
+      "builds": [
+        {
+          "build": 1,
+          "visible": 1,
+          "expected": 1,
+          "visibleText": [
+            "↘ Falência crônica cirrose descompensada, complicações recorrentes e qualidade de vida inaceitável"
+          ]
+        },
+        {
+          "build": 2,
+          "visible": 2,
+          "expected": 2,
+          "visibleText": [
+            "↘ Falência crônica cirrose descompensada, complicações recorrentes e qualidade de vida inaceitável",
+            "! Falência aguda deterioração rápida que exige avaliação imediata em centro transplantador"
+          ]
+        },
+        {
+          "build": 3,
+          "visible": 3,
+          "expected": 3,
+          "visibleText": [
+            "↘ Falência crônica cirrose descompensada, complicações recorrentes e qualidade de vida inaceitável",
+            "! Falência aguda deterioração rápida que exige avaliação imediata em centro transplantador",
+            "◎ Tumores selecionados quando remover o fígado oferece controle oncológico que outra estratégia não entrega"
+          ]
+        },
+        {
+          "build": 4,
+          "visible": 4,
+          "expected": 4,
+          "visibleText": [
+            "↘ Falência crônica cirrose descompensada, complicações recorrentes e qualidade de vida inaceitável",
+            "! Falência aguda deterioração rápida que exige avaliação imediata em centro transplantador",
+            "◎ Tumores selecionados quando remover o fígado oferece controle oncológico que outra estratégia não entrega",
+            "⟲ Doença metabólica o fígado produz a proteína ou o defeito metabólico que causa doença sistêmica"
+          ]
+        },
+        {
+          "build": 5,
+          "visible": 5,
+          "expected": 5,
+          "visibleText": [
+            "o fígado éfonte do danoou alvo da doença",
+            "↘ Falência crônica cirrose descompensada, complicações recorrentes e qualidade de vida inaceitável",
+            "! Falência aguda deterioração rápida que exige avaliação imediata em centro transplantador",
+            "◎ Tumores selecionados quando remover o fígado oferece controle oncológico que outra estratégia não entrega",
+            "⟲ Doença metabólica o fígado produz a proteína ou o defeito metabólico que causa doença sistêmica"
+          ]
+        }
+      ]
     },
     {
       "slide": 5,
@@ -94,8 +324,62 @@
       "sources": 3,
       "fragmentsVisible": 5,
       "fragmentsTotal": 5,
+      "geometry": null,
       "outside": [],
-      "clipped": []
+      "clipped": [],
+      "maxBuild": 5,
+      "builds": [
+        {
+          "build": 1,
+          "visible": 1,
+          "expected": 1,
+          "visibleText": [
+            "ENCAMINHAR primeira descompensação ascite, encefalopatia, sangramento ou outra indicação potencial"
+          ]
+        },
+        {
+          "build": 2,
+          "visible": 2,
+          "expected": 2,
+          "visibleText": [
+            "ENCAMINHAR primeira descompensação ascite, encefalopatia, sangramento ou outra indicação potencial",
+            "LISTAR MELD-Na ≥ 11 piso federal vigente — após avaliação e confirmação da indicação"
+          ]
+        },
+        {
+          "build": 3,
+          "visible": 3,
+          "expected": 3,
+          "visibleText": [
+            "ENCAMINHAR primeira descompensação ascite, encefalopatia, sangramento ou outra indicação potencial",
+            "LISTAR MELD-Na ≥ 11 piso federal vigente — após avaliação e confirmação da indicação",
+            "ATIVAR em SP, em regra > 14 até 14: semiativo, salvo exceções normativas"
+          ]
+        },
+        {
+          "build": 4,
+          "visible": 4,
+          "expected": 4,
+          "visibleText": [
+            "ENCAMINHAR primeira descompensação ascite, encefalopatia, sangramento ou outra indicação potencial",
+            "LISTAR MELD-Na ≥ 11 piso federal vigente — após avaliação e confirmação da indicação",
+            "ATIVAR em SP, em regra > 14 até 14: semiativo, salvo exceções normativas",
+            "TRANSPLANTAR órgão + compatibilidade posição na seleção não garante um enxerto adequado"
+          ]
+        },
+        {
+          "build": 5,
+          "visible": 5,
+          "expected": 5,
+          "visibleText": [
+            "ENCAMINHAR primeira descompensação ascite, encefalopatia, sangramento ou outra indicação potencial",
+            "LISTAR MELD-Na ≥ 11 piso federal vigente — após avaliação e confirmação da indicação",
+            "ATIVAR em SP, em regra > 14 até 14: semiativo, salvo exceções normativas",
+            "TRANSPLANTAR órgão + compatibilidade posição na seleção não garante um enxerto adequado",
+            "Não espere um MELD competitivo para encaminhar. Encaminhar cedo cria a janela para avaliar e mitigar riscos."
+          ]
+        }
+      ]
     },
     {
       "slide": 6,
@@ -113,8 +397,50 @@
       "sources": 3,
       "fragmentsVisible": 4,
       "fragmentsTotal": 4,
+      "geometry": null,
       "outside": [],
-      "clipped": []
+      "clipped": [],
+      "maxBuild": 4,
+      "builds": [
+        {
+          "build": 1,
+          "visible": 1,
+          "expected": 1,
+          "visibleText": [
+            "2005 doador falecido · MELD 12–14 HR 2,35 No primeiro ano, risco de morte pós-TX 2,35× o de candidatos comparáveis em li"
+          ]
+        },
+        {
+          "build": 2,
+          "visible": 2,
+          "expected": 2,
+          "visibleText": [
+            "2005 doador falecido · MELD 12–14 HR 2,35 No primeiro ano, risco de morte pós-TX 2,35× o de candidatos comparáveis em li",
+            "2022 SRTR, EUA · doador vivo · MELD-Na 11–13 aHR 0,64 Menor mortalidade associada ao transplante intervivos versus perma"
+          ]
+        },
+        {
+          "build": 3,
+          "visible": 3,
+          "expected": 3,
+          "visibleText": [
+            "2005 doador falecido · MELD 12–14 HR 2,35 No primeiro ano, risco de morte pós-TX 2,35× o de candidatos comparáveis em li",
+            "2022 SRTR, EUA · doador vivo · MELD-Na 11–13 aHR 0,64 Menor mortalidade associada ao transplante intervivos versus perma",
+            "2026 UNOS/OPTN, EUA · doador falecido 12–14 aHR 0,54 MELD 3.0: benefício associado; não significativo entre 6–11. 21.594"
+          ]
+        },
+        {
+          "build": 4,
+          "visible": 4,
+          "expected": 4,
+          "visibleText": [
+            "2005 doador falecido · MELD 12–14 HR 2,35 No primeiro ano, risco de morte pós-TX 2,35× o de candidatos comparáveis em li",
+            "2022 SRTR, EUA · doador vivo · MELD-Na 11–13 aHR 0,64 Menor mortalidade associada ao transplante intervivos versus perma",
+            "2026 UNOS/OPTN, EUA · doador falecido 12–14 aHR 0,54 MELD 3.0: benefício associado; não significativo entre 6–11. 21.594",
+            "O benefício pode começar antes do antigo limiar.Isso não transforma 11 ou 12 em gatilho universal."
+          ]
+        }
+      ]
     },
     {
       "slide": 7,
@@ -130,10 +456,64 @@
         1080
       ],
       "sources": 2,
-      "fragmentsVisible": 4,
-      "fragmentsTotal": 4,
+      "fragmentsVisible": 5,
+      "fragmentsTotal": 5,
+      "geometry": null,
       "outside": [],
-      "clipped": []
+      "clipped": [],
+      "maxBuild": 5,
+      "builds": [
+        {
+          "build": 1,
+          "visible": 1,
+          "expected": 1,
+          "visibleText": [
+            "lista regular MELD/PELD ordenatempo de espera no desempate"
+          ]
+        },
+        {
+          "build": 2,
+          "visible": 2,
+          "expected": 2,
+          "visibleText": [
+            "lista regular MELD/PELD ordenatempo de espera no desempate",
+            "via de urgência HEPATITE FULMINANTEna norma: insuficiência hepática aguda grave (IHAG) NFPE · NOTIFICADO ATÉ D7*não func"
+          ]
+        },
+        {
+          "build": 3,
+          "visible": 3,
+          "expected": 3,
+          "visibleText": [
+            "lista regular MELD/PELD ordenatempo de espera no desempate",
+            "via de urgência HEPATITE FULMINANTEna norma: insuficiência hepática aguda grave (IHAG) NFPE · NOTIFICADO ATÉ D7*não func",
+            "precedência ≠ órgão sem filtro"
+          ]
+        },
+        {
+          "build": 4,
+          "visible": 4,
+          "expected": 4,
+          "visibleText": [
+            "lista regular MELD/PELD ordenatempo de espera no desempate",
+            "via de urgência HEPATITE FULMINANTEna norma: insuficiência hepática aguda grave (IHAG) NFPE · NOTIFICADO ATÉ D7*não func",
+            "precedência ≠ órgão sem filtro",
+            "*Após intervivos: somente se já inscrito antes do primeiro TX e elegível à lista naquela ocasião."
+          ]
+        },
+        {
+          "build": 5,
+          "visible": 5,
+          "expected": 5,
+          "visibleText": [
+            "lista regular MELD/PELD ordenatempo de espera no desempate",
+            "via de urgência HEPATITE FULMINANTEna norma: insuficiência hepática aguda grave (IHAG) NFPE · NOTIFICADO ATÉ D7*não func",
+            "precedência ≠ órgão sem filtro",
+            "*Após intervivos: somente se já inscrito antes do primeiro TX e elegível à lista naquela ocasião.",
+            "Continuam valendoABOanatomiatempo entre priorizados"
+          ]
+        }
+      ]
     },
     {
       "slide": 8,
@@ -151,8 +531,50 @@
       "sources": 3,
       "fragmentsVisible": 4,
       "fragmentsTotal": 4,
+      "geometry": null,
       "outside": [],
-      "clipped": []
+      "clipped": [],
+      "maxBuild": 4,
+      "builds": [
+        {
+          "build": 1,
+          "visible": 1,
+          "expected": 1,
+          "visibleText": [
+            "trajetória geral 20aprovação 90 dias 24revalidação + 90 dias 29revalidação"
+          ]
+        },
+        {
+          "build": 2,
+          "visible": 2,
+          "expected": 2,
+          "visibleText": [
+            "trajetória geral 20aprovação 90 dias 24revalidação + 90 dias 29revalidação",
+            "a exceção da exceção Ascite refratária aprovação técnica→29 A mortalidade em lista pode ser muito maior do que o MELD su"
+          ]
+        },
+        {
+          "build": 3,
+          "visible": 3,
+          "expected": 3,
+          "visibleText": [
+            "trajetória geral 20aprovação 90 dias 24revalidação + 90 dias 29revalidação",
+            "a exceção da exceção Ascite refratária aprovação técnica→29 A mortalidade em lista pode ser muito maior do que o MELD su",
+            "trilha separada da urgência Insuficiência hepática após doação para transplante intervivos situação especial em SP→40"
+          ]
+        },
+        {
+          "build": 4,
+          "visible": 4,
+          "expected": 4,
+          "visibleText": [
+            "trajetória geral 20aprovação 90 dias 24revalidação + 90 dias 29revalidação",
+            "a exceção da exceção Ascite refratária aprovação técnica→29 A mortalidade em lista pode ser muito maior do que o MELD su",
+            "trilha separada da urgência Insuficiência hepática após doação para transplante intervivos situação especial em SP→40",
+            "Pontuação ajustada exige enquadramento, documentação e aprovação técnica."
+          ]
+        }
+      ]
     },
     {
       "slide": 9,
@@ -170,8 +592,62 @@
       "sources": 3,
       "fragmentsVisible": 5,
       "fragmentsTotal": 5,
+      "geometry": null,
       "outside": [],
-      "clipped": []
+      "clipped": [],
+      "maxBuild": 5,
+      "builds": [
+        {
+          "build": 1,
+          "visible": 1,
+          "expected": 1,
+          "visibleText": [
+            "01 CONSOLIDADO NA NORMAHCC e NET selecionadoscritérios definidos, estadiamento e biologia compatível com benefício."
+          ]
+        },
+        {
+          "build": 2,
+          "visible": 2,
+          "expected": 2,
+          "visibleText": [
+            "01 CONSOLIDADO NA NORMAHCC e NET selecionadoscritérios definidos, estadiamento e biologia compatível com benefício.",
+            "02 PROTOCOLO ALTAMENTE SELECIONADOColangiocarcinomaperihilar precoce após neoadjuvância; intra-hepático muito pequeno/es"
+          ]
+        },
+        {
+          "build": 3,
+          "visible": 3,
+          "expected": 3,
+          "visibleText": [
+            "01 CONSOLIDADO NA NORMAHCC e NET selecionadoscritérios definidos, estadiamento e biologia compatível com benefício.",
+            "02 PROTOCOLO ALTAMENTE SELECIONADOColangiocarcinomaperihilar precoce após neoadjuvância; intra-hepático muito pequeno/es",
+            "03 FRONTEIRA NO BRASILMetástase colorretal só no fígadoTransMet: seleção extrema, 94 pacientes, primário controlado e do"
+          ]
+        },
+        {
+          "build": 4,
+          "visible": 4,
+          "expected": 4,
+          "visibleText": [
+            "01 CONSOLIDADO NA NORMAHCC e NET selecionadoscritérios definidos, estadiamento e biologia compatível com benefício.",
+            "02 PROTOCOLO ALTAMENTE SELECIONADOColangiocarcinomaperihilar precoce após neoadjuvância; intra-hepático muito pequeno/es",
+            "03 FRONTEIRA NO BRASILMetástase colorretal só no fígadoTransMet: seleção extrema, 94 pacientes, primário controlado e do",
+            "Zona 03 · TransMet · sobrevida global em 5 anos 56,6%vs12,6% transplante + quimioterapia vs quimioterapia · intenção de "
+          ]
+        },
+        {
+          "build": 5,
+          "visible": 5,
+          "expected": 5,
+          "visibleText": [
+            "01 CONSOLIDADO NA NORMAHCC e NET selecionadoscritérios definidos, estadiamento e biologia compatível com benefício.",
+            "02 PROTOCOLO ALTAMENTE SELECIONADOColangiocarcinomaperihilar precoce após neoadjuvância; intra-hepático muito pequeno/es",
+            "03 FRONTEIRA NO BRASILMetástase colorretal só no fígadoTransMet: seleção extrema, 94 pacientes, primário controlado e do",
+            "Zona 03 · TransMet · sobrevida global em 5 anos 56,6%vs12,6% transplante + quimioterapia vs quimioterapia · intenção de ",
+            "Eficácia em ensaio não cria, sozinha, uma situação especial rotineira no Brasil."
+          ]
+        }
+      ]
     },
     {
       "slide": 10,
@@ -189,8 +665,53 @@
       "sources": 3,
       "fragmentsVisible": 5,
       "fragmentsTotal": 5,
+      "geometry": null,
       "outside": [],
-      "clipped": []
+      "clipped": [],
+      "maxBuild": 4,
+      "builds": [
+        {
+          "build": 1,
+          "visible": 1,
+          "expected": 1,
+          "visibleText": [
+            "recebe outro enxerto Paciente com PAF polineuropatia amiloidótica familiar por TTR; o fígado continua produzindo a prote"
+          ]
+        },
+        {
+          "build": 2,
+          "visible": 3,
+          "expected": 3,
+          "visibleText": [
+            "recebe outro enxerto Paciente com PAF polineuropatia amiloidótica familiar por TTR; o fígado continua produzindo a prote",
+            "enxerto dominó→",
+            "Outro receptor ganha função hepática, mas aceita o risco tardio de desenvolver amiloidose regra vigente: primeiro candid"
+          ]
+        },
+        {
+          "build": 3,
+          "visible": 4,
+          "expected": 4,
+          "visibleText": [
+            "recebe outro enxerto Paciente com PAF polineuropatia amiloidótica familiar por TTR; o fígado continua produzindo a prote",
+            "enxerto dominó→",
+            "Outro receptor ganha função hepática, mas aceita o risco tardio de desenvolver amiloidose regra vigente: primeiro candid",
+            "estabilizadoressilenciadores de TTRseguimento neurológico menos transplantes primários → menos enxertos dominó"
+          ]
+        },
+        {
+          "build": 4,
+          "visible": 5,
+          "expected": 5,
+          "visibleText": [
+            "recebe outro enxerto Paciente com PAF polineuropatia amiloidótica familiar por TTR; o fígado continua produzindo a prote",
+            "enxerto dominó→",
+            "Outro receptor ganha função hepática, mas aceita o risco tardio de desenvolver amiloidose regra vigente: primeiro candid",
+            "estabilizadoressilenciadores de TTRseguimento neurológico menos transplantes primários → menos enxertos dominó",
+            "Consentimento e vigilância continuam essenciais. Raro não significa extinto."
+          ]
+        }
+      ]
     },
     {
       "slide": 11,
@@ -208,8 +729,26 @@
       "sources": 0,
       "fragmentsVisible": 2,
       "fragmentsTotal": 2,
+      "geometry": null,
       "outside": [],
-      "clipped": []
+      "clipped": [],
+      "maxBuild": 2,
+      "builds": [
+        {
+          "build": 1,
+          "visible": 1,
+          "expected": 1,
+          "visibleText": []
+        },
+        {
+          "build": 2,
+          "visible": 2,
+          "expected": 2,
+          "visibleText": [
+            "Até aqui A indicação abre a porta. Daqui em diante A avaliação decide se, quando e como atravessá-la."
+          ]
+        }
+      ]
     },
     {
       "slide": 12,
@@ -227,8 +766,89 @@
       "sources": 2,
       "fragmentsVisible": 7,
       "fragmentsTotal": 7,
+      "geometry": null,
       "outside": [],
-      "clipped": []
+      "clipped": [],
+      "maxBuild": 7,
+      "builds": [
+        {
+          "build": 1,
+          "visible": 1,
+          "expected": 1,
+          "visibleText": [
+            "01Precisa?benefício sem transplante versus com transplante"
+          ]
+        },
+        {
+          "build": 2,
+          "visible": 2,
+          "expected": 2,
+          "visibleText": [
+            "01Precisa?benefício sem transplante versus com transplante",
+            "02Suporta?reserva clínica, anestésica e viabilidade técnica"
+          ]
+        },
+        {
+          "build": 3,
+          "visible": 3,
+          "expected": 3,
+          "visibleText": [
+            "01Precisa?benefício sem transplante versus com transplante",
+            "02Suporta?reserva clínica, anestésica e viabilidade técnica",
+            "03Sustenta o cuidado?capacidade, acesso, apoio e terapia longitudinal"
+          ]
+        },
+        {
+          "build": 4,
+          "visible": 4,
+          "expected": 4,
+          "visibleText": [
+            "01Precisa?benefício sem transplante versus com transplante",
+            "02Suporta?reserva clínica, anestésica e viabilidade técnica",
+            "03Sustenta o cuidado?capacidade, acesso, apoio e terapia longitudinal",
+            "equipeRISCO RESIDUALcomitê"
+          ]
+        },
+        {
+          "build": 5,
+          "visible": 5,
+          "expected": 5,
+          "visibleText": [
+            "01Precisa?benefício sem transplante versus com transplante",
+            "02Suporta?reserva clínica, anestésica e viabilidade técnica",
+            "03Sustenta o cuidado?capacidade, acesso, apoio e terapia longitudinal",
+            "equipeRISCO RESIDUALcomitê",
+            "→Listar agorabenefício claro + risco aceitável"
+          ]
+        },
+        {
+          "build": 6,
+          "visible": 6,
+          "expected": 6,
+          "visibleText": [
+            "01Precisa?benefício sem transplante versus com transplante",
+            "02Suporta?reserva clínica, anestésica e viabilidade técnica",
+            "03Sustenta o cuidado?capacidade, acesso, apoio e terapia longitudinal",
+            "equipeRISCO RESIDUALcomitê",
+            "→Listar agorabenefício claro + risco aceitável",
+            "↻Adiar e intervirrisco modificável + plano + prazo"
+          ]
+        },
+        {
+          "build": 7,
+          "visible": 7,
+          "expected": 7,
+          "visibleText": [
+            "01Precisa?benefício sem transplante versus com transplante",
+            "02Suporta?reserva clínica, anestésica e viabilidade técnica",
+            "03Sustenta o cuidado?capacidade, acesso, apoio e terapia longitudinal",
+            "equipeRISCO RESIDUALcomitê",
+            "→Listar agorabenefício claro + risco aceitável",
+            "↻Adiar e intervirrisco modificável + plano + prazo",
+            "⊘Não indicarbenefício improvável ou risco não mitigável"
+          ]
+        }
+      ]
     },
     {
       "slide": 13,
@@ -244,10 +864,176 @@
         1080
       ],
       "sources": 3,
-      "fragmentsVisible": 6,
-      "fragmentsTotal": 6,
+      "fragmentsVisible": 21,
+      "fragmentsTotal": 21,
+      "geometry": null,
       "outside": [],
-      "clipped": []
+      "clipped": [],
+      "maxBuild": 9,
+      "builds": [
+        {
+          "build": 1,
+          "visible": 3,
+          "expected": 3,
+          "visibleText": [
+            "01 Benefício Irreversibilidade Prognóstico Etiologia Infecção Câncer hepatologia + especialidades",
+            "02 Reserva Condição cardiovascular Doença coronariana Condição pulmonar / portopulmonar Função renal Risco anestésico an",
+            "03 Viabilidade Anatomia arterial Anatomia portal Anatomia biliar Trombose Cirurgias prévias e estratégia cirurgia + radi"
+          ]
+        },
+        {
+          "build": 2,
+          "visible": 6,
+          "expected": 6,
+          "visibleText": [
+            "Irreversibilidade",
+            "Condição cardiovascular",
+            "Anatomia arterial"
+          ]
+        },
+        {
+          "build": 3,
+          "visible": 9,
+          "expected": 9,
+          "visibleText": [
+            "Irreversibilidade",
+            "Prognóstico",
+            "Condição cardiovascular",
+            "Doença coronariana",
+            "Anatomia arterial",
+            "Anatomia portal"
+          ]
+        },
+        {
+          "build": 4,
+          "visible": 12,
+          "expected": 12,
+          "visibleText": [
+            "Irreversibilidade",
+            "Prognóstico",
+            "Etiologia",
+            "Condição cardiovascular",
+            "Doença coronariana",
+            "Condição pulmonar / portopulmonar",
+            "Anatomia arterial",
+            "Anatomia portal",
+            "Anatomia biliar"
+          ]
+        },
+        {
+          "build": 5,
+          "visible": 15,
+          "expected": 15,
+          "visibleText": [
+            "Irreversibilidade",
+            "Prognóstico",
+            "Etiologia",
+            "Infecção",
+            "Condição cardiovascular",
+            "Doença coronariana",
+            "Condição pulmonar / portopulmonar",
+            "Função renal",
+            "Anatomia arterial",
+            "Anatomia portal",
+            "Anatomia biliar",
+            "Trombose"
+          ]
+        },
+        {
+          "build": 6,
+          "visible": 18,
+          "expected": 18,
+          "visibleText": [
+            "Irreversibilidade",
+            "Prognóstico",
+            "Etiologia",
+            "Infecção",
+            "Câncer",
+            "Condição cardiovascular",
+            "Doença coronariana",
+            "Condição pulmonar / portopulmonar",
+            "Função renal",
+            "Risco anestésico",
+            "Anatomia arterial",
+            "Anatomia portal",
+            "Anatomia biliar",
+            "Trombose",
+            "Cirurgias prévias e estratégia"
+          ]
+        },
+        {
+          "build": 7,
+          "visible": 19,
+          "expected": 19,
+          "visibleText": [
+            "Irreversibilidade",
+            "Prognóstico",
+            "Etiologia",
+            "Infecção",
+            "Câncer",
+            "Condição cardiovascular",
+            "Doença coronariana",
+            "Condição pulmonar / portopulmonar",
+            "Função renal",
+            "Risco anestésico",
+            "Anatomia arterial",
+            "Anatomia portal",
+            "Anatomia biliar",
+            "Trombose",
+            "Cirurgias prévias e estratégia",
+            "mesmo candidatorisco integrado"
+          ]
+        },
+        {
+          "build": 8,
+          "visible": 20,
+          "expected": 20,
+          "visibleText": [
+            "Irreversibilidade",
+            "Prognóstico",
+            "Etiologia",
+            "Infecção",
+            "Câncer",
+            "Condição cardiovascular",
+            "Doença coronariana",
+            "Condição pulmonar / portopulmonar",
+            "Função renal",
+            "Risco anestésico",
+            "Anatomia arterial",
+            "Anatomia portal",
+            "Anatomia biliar",
+            "Trombose",
+            "Cirurgias prévias e estratégia",
+            "mesmo candidatorisco integrado",
+            "Bloqueios fortes infecção não controladamalignidade extra-hepática ativadoença cardiopulmonar não corrigívelausência de "
+          ]
+        },
+        {
+          "build": 9,
+          "visible": 21,
+          "expected": 21,
+          "visibleText": [
+            "Irreversibilidade",
+            "Prognóstico",
+            "Etiologia",
+            "Infecção",
+            "Câncer",
+            "Condição cardiovascular",
+            "Doença coronariana",
+            "Condição pulmonar / portopulmonar",
+            "Função renal",
+            "Risco anestésico",
+            "Anatomia arterial",
+            "Anatomia portal",
+            "Anatomia biliar",
+            "Trombose",
+            "Cirurgias prévias e estratégia",
+            "mesmo candidatorisco integrado",
+            "Bloqueios fortes infecção não controladamalignidade extra-hepática ativadoença cardiopulmonar não corrigívelausência de ",
+            "Anatomia complexa e risco tratável são frequentemente relativos, não vetos automáticos."
+          ]
+        }
+      ]
     },
     {
       "slide": 14,
@@ -265,8 +1051,73 @@
       "sources": 2,
       "fragmentsVisible": 6,
       "fragmentsTotal": 6,
+      "geometry": null,
       "outside": [],
-      "clipped": []
+      "clipped": [],
+      "maxBuild": 6,
+      "builds": [
+        {
+          "build": 1,
+          "visible": 1,
+          "expected": 1,
+          "visibleText": [
+            "01Compreenderdoença, lista, sinais de alerta"
+          ]
+        },
+        {
+          "build": 2,
+          "visible": 2,
+          "expected": 2,
+          "visibleText": [
+            "01Compreenderdoença, lista, sinais de alerta",
+            "02Ensinarteach-back, autocuidado, vacinas"
+          ]
+        },
+        {
+          "build": 3,
+          "visible": 3,
+          "expected": 3,
+          "visibleText": [
+            "01Compreenderdoença, lista, sinais de alerta",
+            "02Ensinarteach-back, autocuidado, vacinas",
+            "03Coordenarexames, consultas, documentos"
+          ]
+        },
+        {
+          "build": 4,
+          "visible": 4,
+          "expected": 4,
+          "visibleText": [
+            "01Compreenderdoença, lista, sinais de alerta",
+            "02Ensinarteach-back, autocuidado, vacinas",
+            "03Coordenarexames, consultas, documentos",
+            "04Escalardeterioração, encefalopatia, barreiras"
+          ]
+        },
+        {
+          "build": 5,
+          "visible": 5,
+          "expected": 5,
+          "visibleText": [
+            "01Compreenderdoença, lista, sinais de alerta",
+            "02Ensinarteach-back, autocuidado, vacinas",
+            "03Coordenarexames, consultas, documentos",
+            "04Escalardeterioração, encefalopatia, barreiras"
+          ]
+        },
+        {
+          "build": 6,
+          "visible": 6,
+          "expected": 6,
+          "visibleText": [
+            "01Compreenderdoença, lista, sinais de alerta",
+            "02Ensinarteach-back, autocuidado, vacinas",
+            "03Coordenarexames, consultas, documentos",
+            "04Escalardeterioração, encefalopatia, barreiras",
+            "Em vez de “não aderente”→qual é a causa e quem fecha a lacuna?"
+          ]
+        }
+      ]
     },
     {
       "slide": 15,
@@ -284,8 +1135,75 @@
       "sources": 3,
       "fragmentsVisible": 6,
       "fragmentsTotal": 6,
+      "geometry": null,
       "outside": [],
-      "clipped": []
+      "clipped": [],
+      "maxBuild": 6,
+      "builds": [
+        {
+          "build": 1,
+          "visible": 1,
+          "expected": 1,
+          "visibleText": [
+            "↔ Força + função Liver Frailty Index, mobilidade, quedas, caminhada Fisioterapia"
+          ]
+        },
+        {
+          "build": 2,
+          "visible": 2,
+          "expected": 2,
+          "visibleText": [
+            "↔ Força + função Liver Frailty Index, mobilidade, quedas, caminhada Fisioterapia",
+            "◒ Músculo + ingestão perda ponderal, sarcopenia, consumo e deficiências Nutrição"
+          ]
+        },
+        {
+          "build": 3,
+          "visible": 3,
+          "expected": 3,
+          "visibleText": [
+            "↔ Força + função Liver Frailty Index, mobilidade, quedas, caminhada Fisioterapia",
+            "◒ Músculo + ingestão perda ponderal, sarcopenia, consumo e deficiências Nutrição",
+            "↗ Trajetória medida seriada importa mais do que um único rótulo Equipe"
+          ]
+        },
+        {
+          "build": 4,
+          "visible": 4,
+          "expected": 4,
+          "visibleText": [
+            "↔ Força + função Liver Frailty Index, mobilidade, quedas, caminhada Fisioterapia",
+            "◒ Músculo + ingestão perda ponderal, sarcopenia, consumo e deficiências Nutrição",
+            "↗ Trajetória medida seriada importa mais do que um único rótulo Equipe",
+            "reserva funcional medir → intervir → medir novamente"
+          ]
+        },
+        {
+          "build": 5,
+          "visible": 5,
+          "expected": 5,
+          "visibleText": [
+            "↔ Força + função Liver Frailty Index, mobilidade, quedas, caminhada Fisioterapia",
+            "◒ Músculo + ingestão perda ponderal, sarcopenia, consumo e deficiências Nutrição",
+            "↗ Trajetória medida seriada importa mais do que um único rótulo Equipe",
+            "reserva funcional medir → intervir → medir novamente",
+            "PREABILITAÇÃOexercício individualizado+nutrição+suporte psicossocial"
+          ]
+        },
+        {
+          "build": 6,
+          "visible": 6,
+          "expected": 6,
+          "visibleText": [
+            "↔ Força + função Liver Frailty Index, mobilidade, quedas, caminhada Fisioterapia",
+            "◒ Músculo + ingestão perda ponderal, sarcopenia, consumo e deficiências Nutrição",
+            "↗ Trajetória medida seriada importa mais do que um único rótulo Equipe",
+            "reserva funcional medir → intervir → medir novamente",
+            "PREABILITAÇÃOexercício individualizado+nutrição+suporte psicossocial",
+            "Evidência promissora, ainda heterogênea. Fragilidade isolada não deve excluir."
+          ]
+        }
+      ]
     },
     {
       "slide": 16,
@@ -303,8 +1221,75 @@
       "sources": 3,
       "fragmentsVisible": 6,
       "fragmentsTotal": 6,
+      "geometry": null,
       "outside": [],
-      "clipped": []
+      "clipped": [],
+      "maxBuild": 6,
+      "builds": [
+        {
+          "build": 1,
+          "visible": 1,
+          "expected": 1,
+          "visibleText": [
+            "saúde mentalsofrimento, cognição, consentimento, uso de substâncias"
+          ]
+        },
+        {
+          "build": 2,
+          "visible": 2,
+          "expected": 2,
+          "visibleText": [
+            "saúde mentalsofrimento, cognição, consentimento, uso de substâncias",
+            "acessodistância, transporte, moradia temporária, renda e benefícios"
+          ]
+        },
+        {
+          "build": 3,
+          "visible": 3,
+          "expected": 3,
+          "visibleText": [
+            "saúde mentalsofrimento, cognição, consentimento, uso de substâncias",
+            "acessodistância, transporte, moradia temporária, renda e benefícios",
+            "rede de cuidadoquem executa tarefas concretas — sem presumir um modelo familiar"
+          ]
+        },
+        {
+          "build": 4,
+          "visible": 4,
+          "expected": 4,
+          "visibleText": [
+            "saúde mentalsofrimento, cognição, consentimento, uso de substâncias",
+            "acessodistância, transporte, moradia temporária, renda e benefícios",
+            "rede de cuidadoquem executa tarefas concretas — sem presumir um modelo familiar",
+            "avaliar a causa→intervir→reavaliar"
+          ]
+        },
+        {
+          "build": 5,
+          "visible": 5,
+          "expected": 5,
+          "visibleText": [
+            "saúde mentalsofrimento, cognição, consentimento, uso de substâncias",
+            "acessodistância, transporte, moradia temporária, renda e benefícios",
+            "rede de cuidadoquem executa tarefas concretas — sem presumir um modelo familiar",
+            "avaliar a causa→intervir→reavaliar",
+            "plano verificável Psicologia / psiquiatriatratamento, prevenção de recaída, coping, capacidade e seguimento. Serviço soc"
+          ]
+        },
+        {
+          "build": 6,
+          "visible": 6,
+          "expected": 6,
+          "visibleText": [
+            "saúde mentalsofrimento, cognição, consentimento, uso de substâncias",
+            "acessodistância, transporte, moradia temporária, renda e benefícios",
+            "rede de cuidadoquem executa tarefas concretas — sem presumir um modelo familiar",
+            "avaliar a causa→intervir→reavaliar",
+            "plano verificável Psicologia / psiquiatriatratamento, prevenção de recaída, coping, capacidade e seguimento. Serviço soc",
+            "Regra vigente em SP · 25/07/2026hepatopatia alcoólica: ≥ 6 meses de abstinência para listaro tempo isolado não substitui"
+          ]
+        }
+      ]
     },
     {
       "slide": 17,
@@ -319,11 +1304,99 @@
         1920,
         1080
       ],
-      "sources": 2,
+      "sources": 3,
       "fragmentsVisible": 9,
       "fragmentsTotal": 9,
+      "geometry": null,
       "outside": [],
-      "clipped": []
+      "clipped": [],
+      "maxBuild": 7,
+      "builds": [
+        {
+          "build": 1,
+          "visible": 1,
+          "expected": 1,
+          "visibleText": [
+            "lista do prontuário curta · estática · frequentemente incompleta"
+          ]
+        },
+        {
+          "build": 2,
+          "visible": 2,
+          "expected": 2,
+          "visibleText": [
+            "lista do prontuário curta · estática · frequentemente incompleta",
+            "anamnese farmacêutica+reconciliação medicamentosa"
+          ]
+        },
+        {
+          "build": 3,
+          "visible": 3,
+          "expected": 3,
+          "visibleText": [
+            "lista do prontuário curta · estática · frequentemente incompleta",
+            "anamnese farmacêutica+reconciliação medicamentosa",
+            "o que a pessoa realmente usa prescritosMIP · isentos de prescriçãofitoterápicossuplementoshormôniossubstâncias"
+          ]
+        },
+        {
+          "build": 4,
+          "visible": 5,
+          "expected": 5,
+          "visibleText": [
+            "lista do prontuário curta · estática · frequentemente incompleta",
+            "anamnese farmacêutica+reconciliação medicamentosa",
+            "o que a pessoa realmente usa prescritosMIP · isentos de prescriçãofitoterápicossuplementoshormôniossubstâncias",
+            "01O quê realmente usa?",
+            "02Como usa, de fato?"
+          ]
+        },
+        {
+          "build": 5,
+          "visible": 7,
+          "expected": 7,
+          "visibleText": [
+            "lista do prontuário curta · estática · frequentemente incompleta",
+            "anamnese farmacêutica+reconciliação medicamentosa",
+            "o que a pessoa realmente usa prescritosMIP · isentos de prescriçãofitoterápicossuplementoshormôniossubstâncias",
+            "01O quê realmente usa?",
+            "02Como usa, de fato?",
+            "03Quais interações, toxicidades e eventos?",
+            "04Compreende e consegue acessar?"
+          ]
+        },
+        {
+          "build": 6,
+          "visible": 8,
+          "expected": 8,
+          "visibleText": [
+            "lista do prontuário curta · estática · frequentemente incompleta",
+            "anamnese farmacêutica+reconciliação medicamentosa",
+            "o que a pessoa realmente usa prescritosMIP · isentos de prescriçãofitoterápicossuplementoshormôniossubstâncias",
+            "01O quê realmente usa?",
+            "02Como usa, de fato?",
+            "03Quais interações, toxicidades e eventos?",
+            "04Compreende e consegue acessar?",
+            "05Qual é o mecanismo da não adesão?"
+          ]
+        },
+        {
+          "build": 7,
+          "visible": 9,
+          "expected": 9,
+          "visibleText": [
+            "lista do prontuário curta · estática · frequentemente incompleta",
+            "anamnese farmacêutica+reconciliação medicamentosa",
+            "o que a pessoa realmente usa prescritosMIP · isentos de prescriçãofitoterápicossuplementoshormôniossubstâncias",
+            "01O quê realmente usa?",
+            "02Como usa, de fato?",
+            "03Quais interações, toxicidades e eventos?",
+            "04Compreende e consegue acessar?",
+            "05Qual é o mecanismo da não adesão?",
+            "“não aderente”→acesso? compreensão? efeito adverso? crença? cognição? complexidade?"
+          ]
+        }
+      ]
     },
     {
       "slide": 18,
@@ -341,8 +1414,75 @@
       "sources": 3,
       "fragmentsVisible": 6,
       "fragmentsTotal": 6,
+      "geometry": null,
       "outside": [],
-      "clipped": []
+      "clipped": [],
+      "maxBuild": 6,
+      "builds": [
+        {
+          "build": 1,
+          "visible": 1,
+          "expected": 1,
+          "visibleText": [
+            "interação / uso inseguroretirar, substituir ou ajustar com a equipelista conciliada + plano"
+          ]
+        },
+        {
+          "build": 2,
+          "visible": 2,
+          "expected": 2,
+          "visibleText": [
+            "interação / uso inseguroretirar, substituir ou ajustar com a equipelista conciliada + plano",
+            "acesso / custoarticular SUS, assistência social e dispensaçãofonte e continuidade confirmadas"
+          ]
+        },
+        {
+          "build": 3,
+          "visible": 3,
+          "expected": 3,
+          "visibleText": [
+            "interação / uso inseguroretirar, substituir ou ajustar com a equipelista conciliada + plano",
+            "acesso / custoarticular SUS, assistência social e dispensaçãofonte e continuidade confirmadas",
+            "baixa compreensãolinguagem simples, teach-back e organizadorespaciente/cuidador demonstra"
+          ]
+        },
+        {
+          "build": 4,
+          "visible": 4,
+          "expected": 4,
+          "visibleText": [
+            "interação / uso inseguroretirar, substituir ou ajustar com a equipelista conciliada + plano",
+            "acesso / custoarticular SUS, assistência social e dispensaçãofonte e continuidade confirmadas",
+            "baixa compreensãolinguagem simples, teach-back e organizadorespaciente/cuidador demonstra",
+            "vacinação incompletarevisar e encaminhar conforme CRIE e temporegistro atualizado"
+          ]
+        },
+        {
+          "build": 5,
+          "visible": 5,
+          "expected": 5,
+          "visibleText": [
+            "interação / uso inseguroretirar, substituir ou ajustar com a equipelista conciliada + plano",
+            "acesso / custoarticular SUS, assistência social e dispensaçãofonte e continuidade confirmadas",
+            "baixa compreensãolinguagem simples, teach-back e organizadorespaciente/cuidador demonstra",
+            "vacinação incompletarevisar e encaminhar conforme CRIE e temporegistro atualizado",
+            "adesão vulnerávelsimplificar e tratar o mecanismo realcomportamento longitudinal"
+          ]
+        },
+        {
+          "build": 6,
+          "visible": 6,
+          "expected": 6,
+          "visibleText": [
+            "interação / uso inseguroretirar, substituir ou ajustar com a equipelista conciliada + plano",
+            "acesso / custoarticular SUS, assistência social e dispensaçãofonte e continuidade confirmadas",
+            "baixa compreensãolinguagem simples, teach-back e organizadorespaciente/cuidador demonstra",
+            "vacinação incompletarevisar e encaminhar conforme CRIE e temporegistro atualizado",
+            "adesão vulnerávelsimplificar e tratar o mecanismo realcomportamento longitudinal",
+            "O farmacêutico não apenas identifica problemas. Transforma risco farmacoterapêutico em mitigação verificável."
+          ]
+        }
+      ]
     },
     {
       "slide": 19,
@@ -360,8 +1500,62 @@
       "sources": 2,
       "fragmentsVisible": 5,
       "fragmentsTotal": 5,
+      "geometry": null,
       "outside": [],
-      "clipped": []
+      "clipped": [],
+      "maxBuild": 5,
+      "builds": [
+        {
+          "build": 1,
+          "visible": 1,
+          "expected": 1,
+          "visibleText": [
+            "medicinaenfermagemfisioterapianutriçãopsicologiaserviço socialfarmácia COMITÊ"
+          ]
+        },
+        {
+          "build": 2,
+          "visible": 2,
+          "expected": 2,
+          "visibleText": [
+            "medicinaenfermagemfisioterapianutriçãopsicologiaserviço socialfarmácia COMITÊ",
+            "01Listar agorabenefício claro, risco aceitável e plano executável"
+          ]
+        },
+        {
+          "build": 3,
+          "visible": 3,
+          "expected": 3,
+          "visibleText": [
+            "medicinaenfermagemfisioterapianutriçãopsicologiaserviço socialfarmácia COMITÊ",
+            "01Listar agorabenefício claro, risco aceitável e plano executável",
+            "02Adiar + intervir + reavaliarrisco potencialmente reversível, com responsável, prazo e critério"
+          ]
+        },
+        {
+          "build": 4,
+          "visible": 4,
+          "expected": 4,
+          "visibleText": [
+            "medicinaenfermagemfisioterapianutriçãopsicologiaserviço socialfarmácia COMITÊ",
+            "01Listar agorabenefício claro, risco aceitável e plano executável",
+            "02Adiar + intervir + reavaliarrisco potencialmente reversível, com responsável, prazo e critério",
+            "03Não indicarbenefício improvável ou risco grave não mitigável, documentado e discutido"
+          ]
+        },
+        {
+          "build": 5,
+          "visible": 5,
+          "expected": 5,
+          "visibleText": [
+            "medicinaenfermagemfisioterapianutriçãopsicologiaserviço socialfarmácia COMITÊ",
+            "01Listar agorabenefício claro, risco aceitável e plano executável",
+            "02Adiar + intervir + reavaliarrisco potencialmente reversível, com responsável, prazo e critério",
+            "03Não indicarbenefício improvável ou risco grave não mitigável, documentado e discutido",
+            "Não são vetos automáticos isoladosfragilidadeobesidadediagnóstico psiquiátricovulnerabilidade socialanatomia complexafal"
+          ]
+        }
+      ]
     },
     {
       "slide": 20,
@@ -379,8 +1573,67 @@
       "sources": 2,
       "fragmentsVisible": 7,
       "fragmentsTotal": 7,
+      "geometry": null,
       "outside": [],
-      "clipped": []
+      "clipped": [],
+      "maxBuild": 5,
+      "builds": [
+        {
+          "build": 1,
+          "visible": 2,
+          "expected": 2,
+          "visibleText": [
+            "Se ficarem apenas três ideias",
+            "Encaminhar cedo."
+          ]
+        },
+        {
+          "build": 2,
+          "visible": 3,
+          "expected": 3,
+          "visibleText": [
+            "Se ficarem apenas três ideias",
+            "Encaminhar cedo.",
+            "Medir além do MELD."
+          ]
+        },
+        {
+          "build": 3,
+          "visible": 4,
+          "expected": 4,
+          "visibleText": [
+            "Se ficarem apenas três ideias",
+            "Encaminhar cedo.",
+            "Medir além do MELD.",
+            "Intervir antes de excluir."
+          ]
+        },
+        {
+          "build": 4,
+          "visible": 6,
+          "expected": 6,
+          "visibleText": [
+            "Se ficarem apenas três ideias",
+            "Encaminhar cedo.",
+            "Medir além do MELD.",
+            "Intervir antes de excluir.",
+            "benefício clínico+regra vigente+risco residual após mitigação"
+          ]
+        },
+        {
+          "build": 5,
+          "visible": 7,
+          "expected": 7,
+          "visibleText": [
+            "Se ficarem apenas três ideias",
+            "Encaminhar cedo.",
+            "Medir além do MELD.",
+            "Intervir antes de excluir.",
+            "benefício clínico+regra vigente+risco residual após mitigação",
+            "A avaliação multidisciplinar torna o benefício realmente alcançável."
+          ]
+        }
+      ]
     }
   ]
 }

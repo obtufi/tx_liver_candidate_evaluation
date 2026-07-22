@@ -114,7 +114,7 @@ async function waitForCondition(expression, label) {
 
 await send("Page.navigate", { url: `${deckUrl}?qa=1#s=1&b=99` });
 await waitForCondition(
-  `document.readyState !== 'loading' && document.querySelector('.slide.is-active')?.id === 'slide-1'`,
+  `document.readyState !== 'loading' && document.querySelector('.slide.is-active')?.id === 'slide-1' && [...document.images].every((img) => img.complete && img.naturalWidth > 0)`,
   "Carga inicial"
 );
 
@@ -130,6 +130,7 @@ for (let slide = 1; slide <= slideCount; slide += 1) {
   await send("Runtime.evaluate", {
     expression: `new Promise(async (resolve) => {
       if (document.fonts?.ready) await document.fonts.ready;
+      await Promise.all([...document.images].map((img) => img.decode?.().catch(() => undefined)));
       requestAnimationFrame(() => requestAnimationFrame(() => setTimeout(resolve, 80)));
     })`,
     awaitPromise: true,
@@ -166,6 +167,19 @@ for (let slide = 1; slide <= slideCount; slide += 1) {
         sources: active.querySelectorAll('.sources a').length,
         fragmentsVisible: active.querySelectorAll('.fragment.is-visible').length,
         fragmentsTotal: active.querySelectorAll('.fragment').length,
+        geometry: (() => {
+          const map = active.querySelector('.family-map');
+          const center = active.querySelector('.family-center');
+          if (!map || !center) return null;
+          const mapRect = map.getBoundingClientRect();
+          const centerRect = center.getBoundingClientRect();
+          return {
+            familyCenterOffset: [
+              Math.round((centerRect.left + centerRect.width / 2) - (mapRect.left + mapRect.width / 2)),
+              Math.round((centerRect.top + centerRect.height / 2) - (mapRect.top + mapRect.height / 2))
+            ]
+          };
+        })(),
         outside,
         clipped
       };
@@ -180,7 +194,60 @@ for (let slide = 1; slide <= slideCount; slide += 1) {
   });
   const filename = `slide-${String(slide).padStart(2, "0")}.png`;
   await writeFile(path.join(outputDir, filename), Buffer.from(screenshot.data, "base64"));
-  report.push({ slide, ...audit.result.value });
+
+  const maxBuildResult = await send("Runtime.evaluate", {
+    expression: `Math.max(1, ...[...document.querySelectorAll('.slide.is-active .fragment')].map((el) => Number(el.dataset.step || 1)))`,
+    returnByValue: true
+  });
+  const maxBuild = maxBuildResult.result.value;
+  const builds = [];
+
+  for (let build = 1; build <= maxBuild; build += 1) {
+    await send("Runtime.evaluate", {
+      expression: `location.hash = '#s=${slide}&b=${build}'`,
+      returnByValue: true
+    });
+    await waitForCondition(
+      `document.querySelector('.slide.is-active')?.id === 'slide-${slide}' && location.hash === '#s=${slide}&b=${build}' && [...document.querySelectorAll('.slide.is-active .fragment')].every((el) => el.classList.contains('is-visible') === (Number(el.dataset.step || 1) <= ${build}))`,
+      `Slide ${slide}, build ${build}`
+    );
+    await send("Runtime.evaluate", {
+      expression: `new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve)))`,
+      awaitPromise: true,
+      returnByValue: true
+    });
+
+    const buildAudit = await send("Runtime.evaluate", {
+      expression: `(() => {
+        const fragments = [...document.querySelectorAll('.slide.is-active .fragment')];
+        const visible = fragments.filter((el) => el.classList.contains('is-visible'));
+        const expected = fragments.filter((el) => Number(el.dataset.step || 1) <= ${build});
+        return {
+          build: ${build},
+          visible: visible.length,
+          expected: expected.length,
+          visibleText: visible
+            .filter((el) => !el.querySelector('.fragment.is-visible'))
+            .map((el) => (el.textContent || '').trim().replace(/\\s+/g, ' ').slice(0, 120))
+            .filter(Boolean)
+        };
+      })()`,
+      returnByValue: true
+    });
+    builds.push(buildAudit.result.value);
+
+    if (slide === 2 || slide === 13) {
+      const buildShot = await send("Page.captureScreenshot", {
+        format: "png",
+        fromSurface: true,
+        captureBeyondViewport: false
+      });
+      const buildFilename = `slide-${String(slide).padStart(2, "0")}-build-${String(build).padStart(2, "0")}.png`;
+      await writeFile(path.join(outputDir, buildFilename), Buffer.from(buildShot.data, "base64"));
+    }
+  }
+
+  report.push({ slide, ...audit.result.value, maxBuild, builds });
 }
 
 await writeFile(path.join(root, "qa", "render-report.json"), JSON.stringify({
@@ -192,5 +259,9 @@ await writeFile(path.join(root, "qa", "render-report.json"), JSON.stringify({
 socket.close();
 await fetch(`${endpoint}/json/close/${target.id}`);
 
-const bad = report.filter((entry) => entry.outside.length || entry.clipped.length || entry.sources > 3);
-process.stdout.write(JSON.stringify({ rendered: report.length, consoleErrors, flaggedSlides: bad.map((entry) => entry.slide) }, null, 2));
+const bad = report.filter((entry) => entry.outside.length || entry.clipped.length || entry.sources > 3 ||
+  entry.geometry?.familyCenterOffset.some((offset) => Math.abs(offset) > 2));
+const badBuilds = report.flatMap((entry) => entry.builds
+  .filter((build) => build.visible !== build.expected)
+  .map((build) => ({ slide: entry.slide, build: build.build, visible: build.visible, expected: build.expected })));
+process.stdout.write(JSON.stringify({ rendered: report.length, consoleErrors, flaggedSlides: bad.map((entry) => entry.slide), badBuilds }, null, 2));

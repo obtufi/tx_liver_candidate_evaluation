@@ -1,6 +1,6 @@
 # Indicação e Avaliação do Candidato ao Transplante Hepático
 
-Apresentação web para o **II Simpósio de Farmácia Clínica e Hospitalar do Hospital Nove de Julho**, ministrada pelo **Prof. Ben-Hur Ferraz Neto** em 25 de julho de 2026.
+Apresentação web para o **II Simpósio de Farmácia Clínica e Hospitalar do Hospital Nove de Julho**, ministrada pelo **Prof. Dr. Ben-Hur Ferraz Neto** em 25 de julho de 2026.
 
 ## Acesso público
 
@@ -42,7 +42,9 @@ O endereço registra o slide e o build no fragmento da URL, permitindo compartil
 
 ## Validação visual
 
-O script [`qa/capture.mjs`](qa/capture.mjs) captura os 20 slides em 1920×1080 por Chrome DevTools Protocol e produz [`qa/render-report.json`](qa/render-report.json), incluindo erros de console, elementos fora do canvas, texto cortado e contagem de referências.
+O script [`qa/capture.mjs`](qa/capture.mjs) captura os 20 slides em 1920×1080 por Chrome DevTools Protocol e produz [`qa/render-report.json`](qa/render-report.json), incluindo erros de console, elementos fora do canvas, texto cortado, contagem de referências e auditoria de todos os builds. Os builds intermediários dos slides 2 e 13 também recebem capturas próprias para revisão das listas progressivas.
+
+O script [`qa/check-links.mjs`](qa/check-links.mjs) verifica os links científicos exibidos no deck e separa links quebrados de bloqueios editoriais ou falhas de verificação automatizada.
 
 Não há dependências de produção, fontes remotas ou bibliotecas JavaScript: o deck funciona apenas com HTML, CSS e JavaScript locais.
 
