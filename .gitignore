@@ -1,0 +1,9 @@
+.chrome-*/
+.chrome-cdp/
+.tmp/
+.npm-cache/
+node_modules/
+qa/*.png
+qa/renders/
+*.log
+
